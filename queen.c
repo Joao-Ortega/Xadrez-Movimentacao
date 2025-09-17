@@ -6,7 +6,6 @@ int movingQueen(int *times)
     do
     {
         printf("Esquerda\n");
-        printf("---------\n");
         (*times)--;
     } while (*times > 0);
 

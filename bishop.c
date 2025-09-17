@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int movingQueen(int times) {
+int movingBishop(int times) {
 	printf("Movendo bispo:\n");
 	for (int i = 1; i <= times; i++)
     {
@@ -25,7 +25,7 @@ int main()
 		switch (option)
 		{
 		case 1:
-			movingQueen(houses);
+			movingBishop(houses);
 			userIteract = 1;
 			break;
 		case 2:

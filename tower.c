@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int movingQueen(int times) {
+int movingTower(int times) {
 	int initial = 1;
 	printf("Movendo torre:\n");
 	while (initial <= times)
@@ -26,7 +26,7 @@ int main()
 		switch (option)
 		{
 		case 1:
-			movingQueen(houses);
+			movingTower(houses);
 			userIteract = 1;
 			break;
 		case 2:
